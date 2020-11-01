@@ -4,6 +4,8 @@
   "description": "Starter configuration for typescript node applications",
   "main": "index.ts",
   "scripts": {
+    "start": "tsc && node dist/index.js",
+    "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -18,5 +20,10 @@
   "bugs": {
     "url": "https://github.com/AkshayGuptaK/ts-node-starter/issues"
   },
-  "homepage": "https://github.com/AkshayGuptaK/ts-node-starter#readme"
+  "homepage": "https://github.com/AkshayGuptaK/ts-node-starter#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.6",
+    "ts-node": "^9.0.0",
+    "typescript": "^4.0.5"
+  }
 }

@@ -2,7 +2,7 @@
   "name": "ts-node-starter",
   "version": "1.0.0",
   "description": "Starter configuration for typescript node applications",
-  "main": "index.ts",
+  "main": "src/index.ts",
   "scripts": {
     "start": "tsc && node dist/index.js",
     "dev": "nodemon --watch 'src/**/*.ts' --exec 'ts-node' src/index.ts",

@@ -9,7 +9,8 @@
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
     "refresh": "rm -rf ./node_modules ./package-lock.json && npm install",
-    "test": "jest"
+    "test": "jest",
+    "docs": "typedoc src/index.ts"
   },
   "repository": {
     "type": "git",
@@ -39,6 +40,7 @@
     "prettier": "^2.1.2",
     "ts-jest": "^26.4.3",
     "ts-node": "^9.0.0",
+    "typedoc": "^0.20.26",
     "typescript": "^4.0.5"
   }
 }
